@@ -13,6 +13,9 @@
 mkdir -p ~/.vim/pack/git-plugins/start
 ```
 
+The -p flag will create nested directories, but only if they don't exist already.
+
+
 ## Linting 
 https://github.com/dense-analysis/ale
 
