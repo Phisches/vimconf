@@ -39,3 +39,18 @@ https://github.com/davidhalter/jedi-vim
  ```
  
  Remember to run :helptags ~/.vim/pack/dist/start/vim-airline/doc to generate help tags
+ 
+ ## Tagbar
+ 
+ https://github.com/preservim/tagbar
+ 
+ Requires an installation of Universal CTAGS. Eg. via apt:
+ ```
+ sudo apt install universal-ctags 
+ ```
+ 
+ ```
+  git clone https://github.com/preservim/tagbar ~/.vim/pack/dist/start/tagbar
+ ```
+ 
+ How to use it: https://www.pavedroad.io/part-4-code-navigation-with-tagbar/
