@@ -6,6 +6,7 @@
 - https://opensource.com/article/19/1/vim-plugins-developers
 - https://www.fullstackpython.com/vim.html
 - https://medium.com/nerd-for-tech/vim-as-an-ide-for-python-2021-f922da6d2cfe
+- https://realpython.com/vim-and-python-a-match-made-in-heaven/
 
 
 ## create vim plugin dir
