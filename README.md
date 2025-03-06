@@ -20,9 +20,27 @@ The -p flag will create nested directories, but only if they don't exist already
 ## Linting 
 https://github.com/dense-analysis/ale
 
-```
+```bash
 git clone --depth 1 https://github.com/dense-analysis/ale.git ~/.vim/pack/git-plugins/start/ale
 ```
+
+```bash
+vim ~/.vimrc
+```
+
+```
+" Enable completion where available.
+" This setting must be set before ALE is loaded.
+"
+" You should not turn this setting on if you wish to use ALE as a completion
+" source for other completion plugins, like Deoplete.
+let g:ale_completion_enabled = 1
+let g:ale_linters = {
+\   'python': ['flake8', 'mypy', 'pylsp'],
+\}
+```
+
+
 ## Autocomplete
 pip install python-language-server
 https://github.com/davidhalter/jedi-vim
