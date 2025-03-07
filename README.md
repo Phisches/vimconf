@@ -73,3 +73,15 @@ https://github.com/davidhalter/jedi-vim
  ```
  
  How to use it: https://www.pavedroad.io/part-4-code-navigation-with-tagbar/
+
+Install Exuberant Ctags via 
+```bash
+sudo apt install exuberant-ctags
+```
+
+Build tagbar help in VIM via :helptags ALL
+Use  :TagbarOpen in VIM
+>:TagbarOpen will jump to it and :TagbarToggle will close it again.
+>
+>:TagbarClose will simply close the window if it is open
+
